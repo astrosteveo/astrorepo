@@ -1,0 +1,22 @@
+{
+  "name": "astrorepo",
+  "version": "1.0.0",
+  "description": "AstroSteveo's curated collection of powerful Claude Code skills - from spec-driven development to productivity tools",
+  "author": {
+    "name": "AstroSteveo",
+    "url": "https://github.com/astrosteveo"
+  },
+  "homepage": "https://github.com/astrosteveo/astrorepo",
+  "repository": "https://github.com/astrosteveo/astrorepo",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "marketplace",
+    "productivity",
+    "spec-driven-development",
+    "sdd",
+    "statusline",
+    "workflow"
+  ]
+}
