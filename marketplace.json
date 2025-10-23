@@ -12,27 +12,45 @@
   "plugins": [
     {
       "name": "spec-writer",
-      "source": "./skills/spec-writer"
+      "source": {
+        "source": "github",
+        "repo": "astrosteveo/spec-writer"
+      }
     },
     {
       "name": "spec-validator",
-      "source": "./skills/spec-validator"
+      "source": {
+        "source": "github",
+        "repo": "astrosteveo/spec-validator"
+      }
     },
     {
       "name": "test-from-spec",
-      "source": "./skills/test-from-spec"
+      "source": {
+        "source": "github",
+        "repo": "astrosteveo/test-from-spec"
+      }
     },
     {
       "name": "implement-from-spec",
-      "source": "./skills/implement-from-spec"
+      "source": {
+        "source": "github",
+        "repo": "astrosteveo/implement-from-spec"
+      }
     },
     {
       "name": "spec-sync",
-      "source": "./skills/spec-sync"
+      "source": {
+        "source": "github",
+        "repo": "astrosteveo/spec-sync"
+      }
     },
     {
       "name": "statusline-creator",
-      "source": "./skills/statusline-creator"
+      "source": {
+        "source": "github",
+        "repo": "astrosteveo/statusline-creator"
+      }
     }
   ]
 }
