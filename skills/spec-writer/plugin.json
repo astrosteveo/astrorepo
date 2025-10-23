@@ -1,0 +1,21 @@
+{
+  "name": "spec-writer",
+  "version": "1.0.0",
+  "description": "Create comprehensive, testable specifications using SDL (Spec Definition Language) with edge case taxonomy. Guides through template selection, requirements gathering, and validation.",
+  "author": {
+    "name": "AstroSteveo",
+    "url": "https://github.com/astrosteveo"
+  },
+  "homepage": "https://github.com/astrosteveo/astrorepo",
+  "repository": "https://github.com/astrosteveo/astrorepo",
+  "license": "MIT",
+  "keywords": [
+    "specification",
+    "sdd",
+    "requirements",
+    "SDL",
+    "edge-cases",
+    "validation",
+    "documentation"
+  ]
+}

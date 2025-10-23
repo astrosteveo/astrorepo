@@ -1,0 +1,21 @@
+{
+  "name": "spec-validator",
+  "version": "1.0.0",
+  "description": "Validate specifications for completeness, testability, and quality before implementation. Performs comprehensive validation with automated scoring (0-100) and actionable feedback.",
+  "author": {
+    "name": "AstroSteveo",
+    "url": "https://github.com/astrosteveo"
+  },
+  "homepage": "https://github.com/astrosteveo/astrorepo",
+  "repository": "https://github.com/astrosteveo/astrorepo",
+  "license": "MIT",
+  "keywords": [
+    "validation",
+    "quality",
+    "testing",
+    "sdd",
+    "specification",
+    "scoring",
+    "quality-gate"
+  ]
+}

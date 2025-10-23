@@ -1,0 +1,20 @@
+{
+  "name": "spec-sync",
+  "version": "1.0.0",
+  "description": "Keep specifications synchronized with code changes. Detects drift, analyzes coverage, suggests updates, and validates spec-code alignment.",
+  "author": {
+    "name": "AstroSteveo",
+    "url": "https://github.com/astrosteveo"
+  },
+  "homepage": "https://github.com/astrosteveo/astrorepo",
+  "repository": "https://github.com/astrosteveo/astrorepo",
+  "license": "MIT",
+  "keywords": [
+    "synchronization",
+    "drift-detection",
+    "maintenance",
+    "sdd",
+    "alignment",
+    "coverage"
+  ]
+}

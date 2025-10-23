@@ -5,64 +5,34 @@
     "url": "https://github.com/astrosteveo"
   },
   "metadata": {
-    "description": "AstroSteveo's curated collection of powerful Claude Code skills - from spec-driven development to productivity tools",
+    "description": "AstroSteveo's curated collection of powerful Claude Code plugins - from spec-driven development to productivity tools",
     "version": "1.0.0",
     "homepage": "https://github.com/astrosteveo/astrorepo"
   },
   "plugins": [
     {
       "name": "spec-writer",
-      "source": "./skills/spec-writer",
-      "description": "Create comprehensive, testable specifications using SDL (Spec Definition Language) with edge case taxonomy",
-      "version": "1.0.0",
-      "category": "development",
-      "tags": ["specification", "sdd", "documentation", "requirements"],
-      "keywords": ["spec", "requirements", "SDL", "edge-cases", "validation"]
+      "source": "./skills/spec-writer"
     },
     {
       "name": "spec-validator",
-      "source": "./skills/spec-validator",
-      "description": "Validate specifications for completeness, testability, and quality with automated scoring (0-100)",
-      "version": "1.0.0",
-      "category": "development",
-      "tags": ["validation", "quality", "testing", "sdd"],
-      "keywords": ["validate", "spec", "quality-gate", "scoring"]
+      "source": "./skills/spec-validator"
     },
     {
       "name": "test-from-spec",
-      "source": "./skills/test-from-spec",
-      "description": "Generate comprehensive test suites from specifications using TDD principles",
-      "version": "1.0.0",
-      "category": "testing",
-      "tags": ["testing", "tdd", "automation", "sdd"],
-      "keywords": ["test", "tdd", "spec", "unit-test", "integration-test"]
+      "source": "./skills/test-from-spec"
     },
     {
       "name": "implement-from-spec",
-      "source": "./skills/implement-from-spec",
-      "description": "Build features following specifications with Test-Driven Development workflow and progress tracking",
-      "version": "1.0.0",
-      "category": "development",
-      "tags": ["implementation", "tdd", "sdd", "workflow"],
-      "keywords": ["implement", "build", "tdd", "spec", "development"]
+      "source": "./skills/implement-from-spec"
     },
     {
       "name": "spec-sync",
-      "source": "./skills/spec-sync",
-      "description": "Keep specifications synchronized with code changes and detect drift between docs and implementation",
-      "version": "1.0.0",
-      "category": "maintenance",
-      "tags": ["synchronization", "drift-detection", "maintenance", "sdd"],
-      "keywords": ["sync", "drift", "alignment", "spec", "maintenance"]
+      "source": "./skills/spec-sync"
     },
     {
       "name": "statusline-creator",
-      "source": "./skills/statusline-creator",
-      "description": "Design and customize beautiful, performant statuslines for Claude Code with templates and helpers",
-      "version": "1.0.0",
-      "category": "productivity",
-      "tags": ["customization", "ui", "productivity", "templates"],
-      "keywords": ["statusline", "customize", "design", "terminal", "productivity"]
+      "source": "./skills/statusline-creator"
     }
   ]
 }

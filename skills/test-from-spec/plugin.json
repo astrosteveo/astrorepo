@@ -1,0 +1,21 @@
+{
+  "name": "test-from-spec",
+  "version": "1.0.0",
+  "description": "Generate comprehensive test suites from specifications using TDD principles. Creates unit, integration, E2E, and performance tests before implementation.",
+  "author": {
+    "name": "AstroSteveo",
+    "url": "https://github.com/astrosteveo"
+  },
+  "homepage": "https://github.com/astrosteveo/astrorepo",
+  "repository": "https://github.com/astrosteveo/astrorepo",
+  "license": "MIT",
+  "keywords": [
+    "testing",
+    "tdd",
+    "test-generation",
+    "sdd",
+    "unit-test",
+    "integration-test",
+    "e2e"
+  ]
+}
