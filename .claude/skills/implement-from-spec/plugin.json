@@ -1,0 +1,20 @@
+{
+  "name": "implement-from-spec",
+  "version": "1.0.0",
+  "description": "Build features following specifications with Test-Driven Development workflow. Includes TodoWrite integration, iteration limits, and automatic debugger invocation.",
+  "author": {
+    "name": "AstroSteveo",
+    "url": "https://github.com/astrosteveo"
+  },
+  "homepage": "https://github.com/astrosteveo/astrorepo",
+  "repository": "https://github.com/astrosteveo/astrorepo",
+  "license": "MIT",
+  "keywords": [
+    "implementation",
+    "tdd",
+    "development",
+    "sdd",
+    "workflow",
+    "automation"
+  ]
+}

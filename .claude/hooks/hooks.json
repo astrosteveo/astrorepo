@@ -1,0 +1,27 @@
+{
+  "description": "SDD Framework automation hooks for spec validation and alignment checking",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash(git commit:*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'python3 ${CLAUDE_PLUGIN_ROOT}/hooks/validate-specs-updated.py'"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'python3 ${CLAUDE_PLUGIN_ROOT}/hooks/check-spec-alignment.py'"
+          }
+        ]
+      }
+    ]
+  }
+}
