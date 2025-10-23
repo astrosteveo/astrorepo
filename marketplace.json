@@ -11,38 +11,10 @@
   },
   "plugins": [
     {
-      "name": "spec-writer",
+      "name": "sdd-framework",
       "source": {
         "source": "github",
-        "repo": "astrosteveo/spec-writer"
-      }
-    },
-    {
-      "name": "spec-validator",
-      "source": {
-        "source": "github",
-        "repo": "astrosteveo/spec-validator"
-      }
-    },
-    {
-      "name": "test-from-spec",
-      "source": {
-        "source": "github",
-        "repo": "astrosteveo/test-from-spec"
-      }
-    },
-    {
-      "name": "implement-from-spec",
-      "source": {
-        "source": "github",
-        "repo": "astrosteveo/implement-from-spec"
-      }
-    },
-    {
-      "name": "spec-sync",
-      "source": {
-        "source": "github",
-        "repo": "astrosteveo/spec-sync"
+        "repo": "astrosteveo/sdd-framework"
       }
     },
     {
